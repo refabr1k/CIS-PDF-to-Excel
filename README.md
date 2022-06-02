@@ -15,10 +15,11 @@ Exports it into json formats for other use if desired and finally converts into 
 
 ## Installation
 
-install java
-pip install tika
-pip install pandas
-pip install openpyxl
+- install java
+- pip install tika
+- pip install pandas
+- pip install openpyxl
+- get the 'cis_to_excel.py' file
 
 ## Usage
 
