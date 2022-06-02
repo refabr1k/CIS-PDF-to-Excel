@@ -1,5 +1,5 @@
 # CIS PDF to Excel
- Convert CIS benchmarks to Excel
+Convert CIS PDF benchmarks to Excel and Json formats. Useful for reviewing newer benchmarks when .audit files are not released by Nessus yet.
 
 
 ## Description
@@ -27,14 +27,17 @@ Place CIS benchmark in same running directory, eg. `CIS_Red_Hat_Enterprise_Linux
 ```bash
 python cis_to_excel.py CIS_Red_Hat_Enterprise_Linux_8_Benchmark_v2.0.0.pdf output
 ```
-'input' will be CIS benchmark pdf in same directory
-'output' will be used to generate 'output.xlsx' and 'output.json'. It is not necessary to provide the extension
+- 'input' will be CIS benchmark pdf in same directory
+- 'output' will be used to generate 'output.xlsx' and 'output.json'. It is not necessary to provide the extension
 
 The following files will be created
 - output.json
 - output.xlsx
 
+### Screens
 
 ![Alt text](screen1.png)
 
 ![Alt text](screen2.png)
+
+![Alt text](screen3.png)
